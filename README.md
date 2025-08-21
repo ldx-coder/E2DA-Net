@@ -1,11 +1,5 @@
 
 
-[Ultralytics](https://ultralytics.com) [YOLOv8](https://github.com/ultralytics/ultralytics) 是一款前沿、最先进（SOTA）的模型，基于先前 YOLO 版本的成功，引入了新功能和改进，进一步提升性能和灵活性。YOLOv8 设计快速、准确且易于使用，使其成为各种物体检测与跟踪、实例分割、图像分类和姿态估计任务的绝佳选择。
-
-## <div align="center">文档</div>
-
-请参阅下面的快速安装和使用示例，以及 [YOLOv8 文档](https://docs.ultralytics.com) 上有关训练、验证、预测和部署的完整文档。
-
 <details open>
 <summary>安装</summary>
 
@@ -53,10 +47,9 @@ data.yaml 文件应包含数据集配置信息。
 使用以下命令训练模型：
 
 ```bash
-yolo detect train data=dataset/data.yaml model=E2DA-Net.yaml
+yolo detect train data=data.yaml model=E2DA-Net.yaml
 ```
 
-`yolo` 可用于各种任务和模式，并接受其他参数，例如 `imgsz=640`。查看 YOLOv8 [CLI 文档](https://docs.ultralytics.com/usage/cli)以获取示例。
 
 
 
