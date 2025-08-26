@@ -32,7 +32,7 @@ pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 -f https://download.py
 ```
 3. Install dependencies:
 ```bash
-pip install ultralytics
+pip install -r requirements.txt
 ```
 
 
