@@ -32,7 +32,13 @@ pip install torch==1.12.0+cu113 torchvision==0.13.0+cu113 -f https://download.py
 ```
 3. Install dependencies:
 ```bash
-pip install -r requirements.txt
+pip install ultralytics==8.3.112
+pip install opencv-python==4.9.0.80
+pip install numpy==1.26.3
+pip install Pillow==10.2.0
+pip install scipy==1.13.0
+pip install matplotlib==3.9.2
+pip install seaborn==0.13.2
 ```
 
 
