@@ -17,5 +17,5 @@ pandas>=1.3.0
 albumentations>=1.4.0
 
 # Optional
-scikit-learn>=1.0.0
+scikit-learn>=1.6.1
 einops>=0.8.0
